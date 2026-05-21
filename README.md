@@ -67,5 +67,43 @@ IngatKu solves this by **listening to existing notifications** (with user permis
 | Notifications (Android) | `NotificationListenerService` + WorkManager |
 
 ---
+## Getting Started
 
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) `^3.11.4`
+- [Dart SDK](https://dart.dev/get-dart) (included with Flutter)
+- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/) with Flutter extension
+- A Firebase project set up (see Firebase Setup below)
+
+---
+
+### Installation
+
+1. **Clone the repository**
+```bash
+   git clone https://github.com/NazilHaziq1/IngatKu---ElectroHack-2.0.git
+   cd IngatKu---ElectroHack-2.0
+```
+
+2. **Install dependencies**
+```bash
+   flutter pub get
+```
+
+3. **Firebase Setup**
+   - Go to [Firebase Console](https://console.firebase.google.com/) and create a project
+   - Enable **Authentication** (Email/Password or your chosen method)
+   - Enable **Cloud Firestore**
+   - Download `google-services.json` (Android) and/or `GoogleService-Info.plist` (iOS)
+   - Place them in the appropriate directories:
+     - Android: `android/app/google-services.json`
+     - iOS: `ios/Runner/GoogleService-Info.plist`
+
+4. **Run the app**
+```bash
+   flutter run
+```
 
