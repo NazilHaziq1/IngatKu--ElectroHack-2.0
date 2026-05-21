@@ -68,4 +68,4 @@ IngatKu solves this by **listening to existing notifications** (with user permis
 
 ---
 
-## 🏗 Architecture (Simplified)
+
